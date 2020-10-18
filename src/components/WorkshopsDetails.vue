@@ -30,7 +30,7 @@
                     <h2>
                         {{workshop.name}}
                     </h2>
-                    <hr />
+                    <hr style="width:100%;text-align:left;margin-left:0">
                    
                     <div class="row my-4">
                         <div class="col-4">
@@ -80,7 +80,7 @@
                     <h2>Sessions in this Workshop</h2>
                 </div>
             </div>
-            <hr />
+          <hr style="width:100%;text-align:left;margin-left:0">
             <div class="col-12">
                 <div class="row session-style" v-for="(session,index) in sessions" :key="session.id">
                     <div class="col-1">
